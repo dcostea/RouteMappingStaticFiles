@@ -4,8 +4,7 @@ In an MVC application, the routing is responsible for finding the matching actio
 
 But what if we need to get a response as quick as possible? All these services included with AddMvc are useless and expensive in terms of performance.
 
-Instead of AddMvc, we can use AddMvcCore or, even less, AddRouting with RouteBuilder and MapGet (MapPost, MapDelete, ...)
-Of course, this is not what you need for a complex application with multiple controllers and actions.
+Instead of AddMvc, we can use AddMvcCore or, even less, AddRouting with RouteBuilder and MapGet (MapPost, MapDelete). Of course, this is not what you need for a complex application with multiple controllers and actions.
 
 When sending a rich text response to the client, html code is what you will need (usually an html static file).
 
